@@ -1,0 +1,10 @@
+rules:
+  window_minutes: 5
+  failed_login_threshold: 5
+  request_burst_threshold: 10
+  unusual_hour_start: 0
+  unusual_hour_end: 5
+model:
+  contamination: 0.10
+  random_state: 42
+

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+artifacts/*.joblib
+reports/*.csv
+reports/*.json
+data/processed/*
+!data/processed/.gitkeep
+
